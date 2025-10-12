@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width= device-width, initial-scale=1.0">
+  <title>Manasi's Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="experience">
+    <canvas id="experience-canvas"></canvas>
+  </div>
+
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-text">Loading...</div>
+    <button class="enter-button">Enter Park!</button>
+    <div class="instructions">~ use arrow keys to move ~</div>
+  </div>
+  
+  <div class="audio-toggle-button">
+    <svg
+      width="102"
+      height="69"
+      viewBox="0 0 102 69"
+      class="first-icon-two"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect y="17" width="24" height="37" fill="white" />
+      <rect x="39" width="24" height="69" fill="white" />
+      <rect x="78" y="12" width="24" height="42" fill="white" />
+    </svg>
+
+    <svg
+      width="102"
+      height="24"
+      viewBox="0 0 102 24"
+      class="second-icon-two"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="24" height="24" fill="white" />
+      <rect x="39" width="24" height="24" fill="white" />
+      <rect x="78" width="24" height="24" fill="white" />
+    </svg>
+  </div>
+
+  <div class="modal hidden">
+    <div class="modal-wrapper">
+      <div class="modal-header">
+        <h1 class="modal-title">Projects</h1>
+        <button class="modal-exit-button">exit</button>
+      </div>
+      <div class="modal-content">
+        <div class="modal-content-wrapper">
+          <p class="modal-project-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            ipsa pariatur porro ipsam, labore sequi. Facere recusandae
+            quisquam error corrupti reiciendis officia sunt molestiae
+            dignissimos, quae doloremque, voluptatem quam voluptates! Nam,
+            eum, voluptatibus laboriosam nobis illo rem, esse maxime mollitia
+            voluptate minima in libero cum labore! Pariatur, perferendis enim?
+            Atque hic in optio dolorem cum, quos sint voluptate quidem
+            debitis? Iusto quibusdam voluptate nihil architecto laborum
+            officia suscipit numquam non ea expedita ipsum atque nostrum amet
+            alias, excepturi vel saepe harum animi nobis, doloribus sint
+            corporis fugiat ratione! Temporibus, nostrum? Ducimus ipsum
+            nesciunt quam eum qui minima voluptatibus eaque aspernatur,
+            laboriosam tenetur nisi inventore labore obcaecati assumenda sed
+            ipsa autem nostrum est repudiandae. Possimus sunt totam quidem.
+            Dolorum, aliquid eveniet?
+          </p>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="modal-project-visit-button hidden"
+            >Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.149.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.149.0/examples/jsm/"
+      }
+    }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
