@@ -125,8 +125,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./backgroundimage.jpg');
-    background-size: cover;
+    background-color: #ad8671;
     display: flex;
     flex-direction: column;
     align-items: center;

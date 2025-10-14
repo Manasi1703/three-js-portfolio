@@ -218,8 +218,8 @@ camera.position.x = 47;
 camera.position.y = 42;
 camera.position.z = -91;
 
-const cameraOffset = new THREE.Vector3(47, 42, -91);
-camera.zoom = 4;
+const cameraOffset = new THREE.Vector3(47, 50, -91);
+camera.zoom = 3;
 camera.updateProjectionMatrix();
 // const controls = new OrbitControls( camera, canvas );
 // controls.update();
