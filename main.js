@@ -67,7 +67,7 @@ const modalContent ={
   computer:{
     title : "Portfolio", 
     content: "What have I been cooking so far? 💻",
-    link: "https://www.manasi-ghutukade.com/",
+    link: "https://www.manasighutukade.work/",
   },
   cube_1:{
     title : "Reading List", 
@@ -76,8 +76,8 @@ const modalContent ={
   },
   playground:{
     title : "Playground", 
-    content: "This is my playground",
-    link: "https://www.manasi-ghutukade.com/playground",
+    content: "Click to see all the fun stuff I've been tinkering with.",
+    link: "https://www.manasighutukade.work/microfeed",
   },
 };
 
